@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="sp.css">
+    
+</head>
+<body>
+    <div id="game"></div>
+
+
+
+    <div id="instructions" style="display: none; margin-top: 1em; background-color: #f9f9f9; border: 1px solid #ccc; padding: 1em;">
+        <h2>Blackjack Rules</h2>
+        <h2>1. Bet (Cược):</h2>
+        <p>- Trước khi nhấn nút "Deal" để bắt đầu ván, bạn có thể nhập số tiền cược mong muốn vào ô "Bet amount" và nhấn nút "Bet amount" để xác nhận cược.</p>
+
+        <h2>2. Bắt đầu game:</h2>
+        <p>- Nhấn nút "Deal" để bắt đầu một ván mới.</p>
+        <p>- Sau đó, bạn sẽ nhận được hai lá bài và tổng điểm của bạn sẽ được hiển thị.</p>
+
+        <h2>3. Hit (Nhận thêm lá bài):</h2>
+        <p>- Nhấn nút "Hit" để nhận thêm lá bài.</p>
+        <p>- Mục tiêu là có tổng điểm càng gần 21 càng tốt nhưng không vượt quá.</p>
+        <p>- Lá bài Ách (A) có thể được tính là 1 hoặc 11, tùy thuộc vào việc giá trị nào phù hợp cho tay bài của bạn.</p>
+        <p>- Số lá tối đa có thể cầm là 5.</p>
+
+        <h2>4. Stand (Dừng nhận thêm lá bài):</h2>
+        <p>- Nhấn nút "Stand" nếu bạn muốn dừng nhận thêm lá bài và chờ đợi kết quả.</p>
+
+        <h2>5. Kết thúc ván:</h2>
+        <p>- Khi cả hai người chơi đều dừng nhận thêm lá bài, hoặc có một người chơi vượt quá 21 điểm, thì game sẽ tự động tính toán kết quả và hiển thị người chiến thắng.</p>
+        <p>- Kết quả cược sẽ được cập nhật và bạn có thể bắt đầu ván mới bằng cách nhấn nút "Deal" lại.</p>
+        
+    </div>
+        
+        
+
+
+
+    
+    
+
+
+    <script src="main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', app.init)
+    </script>
+
+</body>
+</html>

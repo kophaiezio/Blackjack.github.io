@@ -442,4 +442,3 @@ const app = function () {
         init: init
     };
 }();
-
